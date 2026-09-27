@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>John Clarence Nicolas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Clarence Nicolas | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is where it all starts.</p>
+  <nav>
+    <h2>J.C. Nicolas</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" style="padding: 2rem;">
+      <h1>Computer Science Graduate Student</h1>
+      <p>Building scalable software and learning modern web development.</p>
+    </section>
+
+    <section id="projects" style="padding: 2rem;">
+      <h2>Selected Work</h2>
+      <div class="project-grid">
+        <article class="card">
+          <h3>Project Title</h3>
+          <p>Tech stack: Python, SQL</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer style="padding: 2rem; background: #eee;">
+    <p>© <span id="year"></span> John Clarence Nicolas</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
