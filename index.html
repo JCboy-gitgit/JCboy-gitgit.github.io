@@ -3,37 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Clarence Nicolas | Portfolio</title>
+  <meta name="description" content="Portfolio of John Clarence M. Nicolas, a mathematics and computer science researcher focused on optimization, data, and useful systems.">
+  <title>John Clarence M. Nicolas | Mathematics + Computer Science</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <h2>J.C. Nicolas</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
-  </nav>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Back to top">JCN<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="mailto:jcnicolas04@gmail.com">Let's talk <span>↗</span></a>
+  </header>
 
-  <main>
-    <section id="about" style="padding: 2rem;">
-      <h1>Computer Science Graduate Student</h1>
-      <p>Building scalable software and learning modern web development.</p>
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Available for analytical work</p>
+        <h1>Making complex<br><em>systems</em> clearer.</h1>
+        <p class="hero-intro">I’m John Clarence, a mathematics and computer science graduate who turns data, algorithms, and research questions into useful systems.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore my work <span>↓</span></a>
+          <a class="text-link" href="mailto:jcnicolas04@gmail.com">jcnicolas04@gmail.com <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-mark reveal" aria-label="JCN monogram">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="monogram"><span>J</span><span>C</span><span>N</span></div>
+        <p>MATHEMATICS<br>× COMPUTER SCIENCE</p>
+      </div>
+      <div class="hero-foot reveal">
+        <span>Based in Bulacan, Philippines</span>
+        <span>Scroll to investigate <b>↓</b></span>
+      </div>
     </section>
 
-    <section id="projects" style="padding: 2rem;">
-      <h2>Selected Work</h2>
-      <div class="project-grid">
-        <article class="card">
-          <h3>Project Title</h3>
-          <p>Tech stack: Python, SQL</p>
-        </article>
+    <div class="ticker" aria-hidden="true"><span>OPTIMIZATION</span><span>DATA SYSTEMS</span><span>RESEARCH</span><span>MATHEMATICAL MODELING</span><span>OPTIMIZATION</span></div>
+
+    <section id="about" class="about section-shell section-grid reveal">
+      <div class="section-label">01 / About</div>
+      <div class="about-content">
+        <h2>Curious by nature.<br><em>Precise by practice.</em></h2>
+        <div class="about-columns">
+          <p>I’m a Bachelor of Science in Mathematics graduate with a specialization in Computer Science. My work sits at the intersection of rigorous thinking and practical implementation: understanding a problem deeply, then building the clearest path through it.</p>
+          <p>From municipal records to academic timetables, I enjoy organizing complicated information and giving it a structure people can actually use.</p>
+        </div>
+        <div class="stat-row">
+          <div><strong>01</strong><span>Research<br>leadership</span></div>
+          <div><strong>05</strong><span>Person research<br>team led</span></div>
+          <div><strong>04</strong><span>Core tools in<br>QTime stack</span></div>
+        </div>
       </div>
+    </section>
+
+    <section id="work" class="work section-shell reveal">
+      <div class="section-grid work-heading">
+        <div class="section-label">02 / Selected work</div>
+        <div><h2>Ideas with<br><em>an output.</em></h2><p class="heading-note">A small selection of systems, research, and operational work.</p></div>
+      </div>
+      <article class="feature-project">
+        <div class="project-number">01</div>
+        <div class="project-main">
+          <p class="project-kicker">Thesis research / 2025—2026</p>
+          <h3>QTime<span>:</span> Quantum-Inspired Optimization for College-Based Room Allocation</h3>
+          <p class="project-description">An optimization system for room allocation and academic scheduling at Bulacan State University — Main College of Science. Designed to reduce timetable conflicts through quantum-inspired algorithms.</p>
+          <div class="tag-list"><span>Next.js</span><span>FastAPI</span><span>Python</span><span>Supabase</span></div>
+        </div>
+        <div class="project-side"><span class="project-role">Lead researcher</span><span class="arrow-large">↗</span></div>
+      </article>
+      <div class="supporting-work">
+        <article class="work-item"><span class="item-number">02</span><div><p class="project-kicker">City Treasury Office / 2025</p><h3>Municipal data operations</h3><p>Managed traffic violation, officer, penalty, taxpayer, and delinquent records while supporting collection reporting workflows.</p></div><span class="item-arrow">↗</span></article>
+        <article class="work-item"><span class="item-number">03</span><div><p class="project-kicker">Research practice</p><h3>From question to model</h3><p>Combining algorithm development, numerical analysis, data optimization, and technical documentation to make analytical work actionable.</p></div><span class="item-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="experience section-shell section-grid reveal">
+      <div class="section-label">03 / Experience</div>
+      <div class="timeline">
+        <div class="timeline-item"><div class="timeline-meta">2025 — 2026<br><span>Bulacan State University</span></div><div><h3>Lead Researcher</h3><p>Led a five-person undergraduate thesis team from system concept through an optimization prototype for college scheduling.</p></div></div>
+        <div class="timeline-item"><div class="timeline-meta">Jun — Jul 2025<br><span>City Government of Malolos</span></div><div><h3>Student Intern · City Treasury Office</h3><p>Encoded and organized extensive municipal records, processed SPA documents, supported CRCR preparation, and routed critical administrative documents.</p></div></div>
+        <div class="timeline-item"><div class="timeline-meta">Aug 2022 — Jun 2026<br><span>Bulacan State University</span></div><div><h3>B.S. Mathematics · Computer Science</h3><p>Built a foundation in mathematical reasoning, algorithms, numerical analysis, and computing through coursework and undergraduate research.</p></div></div>
+      </div>
+    </section>
+
+    <section class="toolkit section-shell reveal">
+      <div class="section-label">04 / Toolkit</div>
+      <div class="toolkit-content"><h2>The working<br><em>toolkit.</em></h2><div class="skill-cloud"><span>Python</span><span>Next.js</span><span>FastAPI</span><span>Supabase</span><span>Mathematical modeling</span><span>Algorithm development</span><span>Data optimization</span><span>LaTeX</span><span>Jamovi</span><span>Microsoft 365</span><span>Technical documentation</span><span>Prompt engineering</span></div></div>
+    </section>
+
+    <section id="contact" class="contact section-shell reveal">
+      <p class="eyebrow">Have a problem worth solving?</p>
+      <h2>Let’s make<br><em>it legible.</em></h2>
+      <a class="contact-email" href="mailto:jcnicolas04@gmail.com">jcnicolas04@gmail.com <span>↗</span></a>
+      <div class="contact-details"><span>+63 928 852 8861</span><span>716 Mendoza St. Lolomboy<br>Bocaue, Bulacan</span><span>© <span id="year"></span> JCN</span></div>
     </section>
   </main>
 
-  <footer style="padding: 2rem; background: #eee;">
-    <p>© <span id="year"></span> John Clarence Nicolas</p>
+  <footer class="site-footer"><span>John Clarence M. Nicolas</span><span>Built with intent, data, and a little curiosity.</span>
   </footer>
 
   <script src="script.js"></script>
